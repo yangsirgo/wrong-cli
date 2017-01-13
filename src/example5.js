@@ -2,7 +2,7 @@ var b_v = navigator.appVersion;
 var IE6 = b_v.search(/MSIE 6/i) != -1;
 var IE7 = b_v.search(/MSIE 7/i) != -1;
 if (IE6||IE7){
-    require('../ie7-js/lib/IE7.js')
+    //require('../ie7-js/lib/IE7.js')
 }
 
 //require('../ie7-js/lib/IE7.js')
