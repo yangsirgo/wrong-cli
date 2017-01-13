@@ -1,0 +1,832 @@
+@charset "UTF-8";
+body .container .noborder {
+  border: 0; }
+
+/* 容器 */
+.container {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden; }
+
+/* 容器 end */
+/* 左侧导航列表 */
+.list_lf {
+  width: 130px;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px; }
+  .list_lf dl {
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+    padding-top: 13px; }
+    .list_lf dl dt {
+      padding-left: 13px;
+      line-height: 28px;
+      position: relative; }
+      .list_lf dl dt a {
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        color: #777777;
+        font-weight: bold; }
+        .list_lf dl dt a:hover {
+          text-decoration: none; }
+      .list_lf dl dt i {
+        width: 5px;
+        height: 9px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        background: url("../images/search_img.png") no-repeat left top; }
+    .list_lf dl dd {
+      padding-left: 13px;
+      line-height: 22px; }
+      .list_lf dl dd a {
+        color: #777777;
+        font-family: Microsoft YaHei;
+        font-size: 12px; }
+        .list_lf dl dd a:hover {
+          color: #3498db;
+          text-decoration: none; }
+
+/* 左侧导航列表 end */
+/* 主体页面 */
+.main {
+  width: 640px;
+  float: left; }
+
+/* 主体页面 end */
+/* 车系频道 */
+.car_channel {
+  width: 100%;
+  padding-top: 25px; }
+  .car_channel .channel_h6 {
+    width: 100%;
+    height: 25px;
+    line-height: 25px; }
+    .car_channel .channel_h6 a {
+      font-family: Microsoft YaHei;
+      color: #3498db;
+      font-size: 16px; }
+      .car_channel .channel_h6 a span {
+        color: #db2e2e; }
+      .car_channel .channel_h6 a:hover {
+        text-decoration: underline; }
+        .car_channel .channel_h6 a:hover span {
+          text-decoration: underline; }
+  .car_channel .channel_content {
+    width: 100%;
+    height: 185px;
+    border-bottom: 1px solid #eeeeee;
+    position: relative; }
+    .car_channel .channel_content dl {
+      width: 445px;
+      padding-left: 195px;
+      height: 185px; }
+      .car_channel .channel_content dl dt {
+        width: 180px;
+        padding-right: 15px;
+        margin-left: -195px;
+        float: left;
+        display: block;
+        padding-top: 7px;
+        text-align: center; }
+        .car_channel .channel_content dl dt a {
+          display: inline-block;
+          width: 100%;
+          height: 36px;
+          line-height: 36px;
+          color: #3498db;
+          font-size: 12px;
+          font-family: Microsoft YaHei; }
+          .car_channel .channel_content dl dt a span {
+            color: #999999; }
+          .car_channel .channel_content dl dt a:hover span {
+            color: #3498db; }
+      .car_channel .channel_content dl dd {
+        width: 100%;
+        height: 185px;
+        display: block; }
+        .car_channel .channel_content dl dd .h31 {
+          height: 31px;
+          line-height: 28px; }
+        .car_channel .channel_content dl dd p {
+          height: 22px;
+          line-height: 22px; }
+          .car_channel .channel_content dl dd p .w88 {
+            display: inline-block;
+            width: 88px;
+            color: #999999;
+            font-family: Microsoft YaHei;
+            font-size: 14px; }
+          .car_channel .channel_content dl dd p .w167 {
+            display: inline-block;
+            width: 167px;
+            color: #999999;
+            font-family: Microsoft YaHei;
+            font-size: 14px; }
+            .car_channel .channel_content dl dd p .w167 a {
+              color: #db2e2e;
+              font-size: 16px;
+              font-family: Tahoma; }
+          .car_channel .channel_content dl dd p .w46 {
+            display: inline-block;
+            width: 46px;
+            color: #999999;
+            font-family: Microsoft YaHei;
+            font-size: 14px; }
+          .car_channel .channel_content dl dd p .w140 {
+            display: inline-block;
+            width: 125px;
+            color: #999999;
+            font-family: Microsoft YaHei;
+            font-size: 14px; }
+        .car_channel .channel_content dl dd .channel_btn {
+          width: 100%;
+          height: 30px;
+          padding-top: 10px; }
+          .car_channel .channel_content dl dd .channel_btn a {
+            display: inline-block;
+            width: 88px;
+            height: 28px;
+            line-height: 28px;
+            border: 1px solid #e6e6e6;
+            background: #f8f8f8;
+            font-family: Microsoft YaHei;
+            font-size: 14px;
+            color: #444444;
+            text-align: center;
+            float: left;
+            margin-right: 10px; }
+            .car_channel .channel_content dl dd .channel_btn a:hover {
+              background: #ff9400;
+              border: 1px solid #ff9400;
+              color: #ffffff;
+              text-decoration: none; }
+        .car_channel .channel_content dl dd .channel_link {
+          height: 36px;
+          line-height: 36px; }
+          .car_channel .channel_content dl dd .channel_link a {
+            float: left;
+            color: #3498db;
+            font-size: 12px;
+            font-family: Microsoft YaHei;
+            margin-right: 12px; }
+  .car_channel .channel_tab {
+    width: 100%;
+    position: relative;
+    margin: 0 auto; }
+    .car_channel .channel_tab .channel_tab_nav {
+      height: 38px;
+      padding-top: 8px;
+      line-height: 36px;
+      color: #e5e5e5; }
+      .car_channel .channel_tab .channel_tab_nav a {
+        display: inline-block;
+        padding: 0px 20px;
+        line-height: 36px;
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        color: #444444; }
+        .car_channel .channel_tab .channel_tab_nav a:hover {
+          border-bottom: 2px solid #3498db;
+          text-decoration: none;
+          color: #3498db; }
+    .car_channel .channel_tab .channel_tab_text {
+      border: 1px solid #e5e5e5;
+      margin-top: -1px;
+      padding-bottom: 7px; }
+      .car_channel .channel_tab .channel_tab_text .p_19 {
+        padding-left: 19px; }
+      .car_channel .channel_tab .channel_tab_text table {
+        width: 100%; }
+        .car_channel .channel_tab .channel_tab_text table thead {
+          height: 37px;
+          line-height: 37px;
+          background: #f6f6f6;
+          font-size: 12px;
+          font-family: Microsoft YaHei;
+          color: #999999; }
+        .car_channel .channel_tab .channel_tab_text table tbody {
+          margin-top: 6px; }
+          .car_channel .channel_tab .channel_tab_text table tbody td {
+            height: 32px;
+            line-height: 32px;
+            font-size: 12px;
+            font-family: Microsoft YaHei;
+            color: #444444; }
+            .car_channel .channel_tab .channel_tab_text table tbody td .channel_tab_link1 {
+              color: #3498db; }
+            .car_channel .channel_tab .channel_tab_text table tbody td .car_channe2 {
+              display: inline-block;
+              width: 66px;
+              height: 24px;
+              line-height: 24px;
+              text-align: center;
+              font-size: 12px;
+              font-family: Microsoft YaHei;
+              color: #ffffff;
+              background: #ff9400; }
+              .car_channel .channel_tab .channel_tab_text table tbody td .car_channe2:hover {
+                background: #f37d00;
+                text-decoration: none; }
+
+/* 车系频道 end */
+/* 车系图片 */
+.img_channel {
+  padding-top: 9px; }
+  .img_channel h6 {
+    height: 37px;
+    line-height: 37px; }
+    .img_channel h6 a {
+      font-family: Microsoft YaHei;
+      font-size: 16px;
+      color: #3498db;
+      font-weight: 500; }
+      .img_channel h6 a span {
+        color: #db2e2e; }
+      .img_channel h6 a:hover {
+        text-decoration: underline; }
+        .img_channel h6 a:hover span {
+          text-decoration: underline; }
+  .img_channel .img_channel_li {
+    width: 700px;
+    height: 90px; }
+    .img_channel .img_channel_li li {
+      width: 120px;
+      height: 90px;
+      float: left;
+      margin-right: 10px;
+      position: relative; }
+      .img_channel .img_channel_li li i {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: url("../images/search_img.png") no-repeat -8px top; }
+  .img_channel .img_channel_link {
+    height: 35px;
+    line-height: 35px; }
+    .img_channel .img_channel_link a {
+      color: #3498db;
+      font-size: 12px;
+      font-family: Microsoft YaHei; }
+      .img_channel .img_channel_link a span {
+        color: #db2e2e; }
+      .img_channel .img_channel_link a:hover {
+        text-decoration: underline; }
+        .img_channel .img_channel_link a:hover span {
+          text-decoration: underline; }
+
+/* 车系图片 end */
+/* 车系视频 */
+.video_channel {
+  padding-top: 8px; }
+  .video_channel h6 {
+    height: 37px;
+    line-height: 37px; }
+    .video_channel h6 a {
+      font-family: Microsoft YaHei;
+      font-size: 16px;
+      color: #3498db;
+      font-weight: 500; }
+      .video_channel h6 a span {
+        color: #db2e2e; }
+      .video_channel h6 a:hover {
+        text-decoration: underline; }
+        .video_channel h6 a:hover span {
+          text-decoration: underline; }
+  .video_channel .img_channel_li {
+    width: 700px;
+    height: 90px; }
+    .video_channel .img_channel_li li {
+      width: 120px;
+      height: 90px;
+      float: left;
+      margin-right: 10px;
+      position: relative; }
+      .video_channel .img_channel_li li i {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        left: 5px;
+        bottom: 6px;
+        background: url("../images/search_img.png") no-repeat -61px top; }
+  .video_channel .img_channel_link {
+    height: 35px;
+    line-height: 35px; }
+    .video_channel .img_channel_link a {
+      color: #3498db;
+      font-size: 12px;
+      font-family: Microsoft YaHei; }
+      .video_channel .img_channel_link a span {
+        color: #db2e2e; }
+      .video_channel .img_channel_link a:hover {
+        text-decoration: underline; }
+        .video_channel .img_channel_link a:hover span {
+          text-decoration: underline; }
+
+/* 车系视频 end */
+/* 品牌车系 */
+.brand_channel {
+  width: 100%;
+  padding-top: 18px; }
+  .brand_channel h6 {
+    height: 39px;
+    line-height: 39px; }
+    .brand_channel h6 a {
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      color: #3498db;
+      font-weight: 500; }
+      .brand_channel h6 a span {
+        color: #db2e2e; }
+      .brand_channel h6 a:hover {
+        text-decoration: underline; }
+        .brand_channel h6 a:hover span {
+          text-decoration: underline; }
+  .brand_channel .brand_channel_list {
+    width: 680px;
+    height: 285px;
+    overflow: hidden; }
+    .brand_channel .brand_channel_list .brand_car_1 {
+      padding-bottom: 17px; }
+    .brand_channel .brand_channel_list .brand_car {
+      width: 120px;
+      float: left;
+      margin-right: 10px; }
+      .brand_channel .brand_channel_list .brand_car a {
+        font-size: 0;
+        display: block;
+        width: 100%;
+        height: 100%; }
+        .brand_channel .brand_channel_list .brand_car a:hover .brand_link1 {
+          color: #3498db;
+          text-decoration: underline; }
+        .brand_channel .brand_channel_list .brand_car a:hover .brand_link2 {
+          text-decoration: underline; }
+      .brand_channel .brand_channel_list .brand_car .brand_link1 {
+        height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        font-size: 14px;
+        color: #444444;
+        font-family: Microsoft YaHei;
+        text-align: center;
+        width: 100%; }
+      .brand_channel .brand_channel_list .brand_car .brand_link2 {
+        height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        font-size: 14px;
+        color: #db2e2e;
+        font-family: Microsoft YaHei;
+        text-align: center;
+        width: 100%; }
+  .brand_channel .brand_channel_linke {
+    height: 23px;
+    line-height: 23px; }
+    .brand_channel .brand_channel_linke a {
+      font-size: 12px;
+      font-family: Microsoft YaHei;
+      color: #3498db; }
+      .brand_channel .brand_channel_linke a span {
+        color: #db2e2e; }
+  .brand_channel .brand_list {
+    width: 100%;
+    padding-top: 16px; }
+
+.brand_list_dl {
+  width: 100%; }
+  .brand_list_dl dt {
+    height: 30px;
+    line-height: 30px; }
+    .brand_list_dl dt a {
+      font-family: Microsoft YaHei;
+      color: #3498db;
+      font-size: 16px; }
+      .brand_list_dl dt a span {
+        color: #db2e2e; }
+      .brand_list_dl dt a:hover span {
+        text-decoration: underline; }
+  .brand_list_dl .brand_car_str {
+    line-height: 17px;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    color: #777777; }
+    .brand_list_dl .brand_car_str span {
+      color: #e74c3c; }
+  .brand_list_dl .brand_car_ber {
+    color: #b5b5b5;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    line-height: 17px;
+    padding-top: 7px; }
+
+/* 品牌车系 end */
+/* 经销商优惠 */
+.map_channel {
+  width: 100%;
+  height: 415px; }
+  .map_channel .map_h6 {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 14px; }
+    .map_channel .map_h6 a {
+      font-family: Microsoft YaHei;
+      color: #3498db;
+      font-size: 16px; }
+      .map_channel .map_h6 a span {
+        color: #db2e2e; }
+      .map_channel .map_h6 a:hover span {
+        text-decoration: underline; }
+  .map_channel .map_channel_service {
+    width: 375px;
+    padding-left: 265px;
+    position: relative;
+    height: 340px;
+    overflow: hidden; }
+    .map_channel .map_channel_service dl {
+      width: 100%;
+      border-bottom: 1px solid #f4f4f4;
+      margin-bottom: 4px;
+      padding-bottom: 8px; }
+      .map_channel .map_channel_service dl dt {
+        height: 32px;
+        line-height: 32px;
+        font-size: 0; }
+        .map_channel .map_channel_service dl dt a {
+          font-size: 14px;
+          font-family: Microsoft YaHei;
+          color: #3498db; }
+        .map_channel .map_channel_service dl dt i {
+          display: inline-block;
+          width: 27px;
+          height: 14px;
+          line-height: 14px;
+          text-align: center;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          border: 1px solid #dedede;
+          font: normal 11px/14px 'PMingLiU';
+          line-height: 16px \9;
+          -webkit-transform: scale(0.9, 0.9);
+          -webkit-transform-origin: center center;
+          height: 14px;
+          color: #999999;
+          margin-left: 13px;
+          vertical-align: inherit; }
+      .map_channel .map_channel_service dl dd {
+        height: 24px;
+        line-height: 24px;
+        font-size: 0; }
+      .map_channel .map_channel_service dl .map_phone {
+        color: #db2e2e;
+        font-family: Tahoma;
+        font-size: 14px; }
+        .map_channel .map_channel_service dl .map_phone i {
+          display: block;
+          width: 15px;
+          height: 14px;
+          background: url("../images/search_img.png") no-repeat left -61px;
+          float: left;
+          margin: 7px 8px 0px 0px; }
+        .map_channel .map_channel_service dl .map_phone span {
+          display: inline-block;
+          width: 27px;
+          height: 14px;
+          line-height: 14px;
+          text-align: center;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          background: #e74c3c;
+          font: normal 11px/14px 'PMingLiU';
+          line-height: 16px \9;
+          -webkit-transform: scale(0.9, 0.9);
+          -webkit-transform-origin: center center;
+          height: 14px;
+          color: #ffffff;
+          margin-left: 13px;
+          vertical-align: inherit; }
+      .map_channel .map_channel_service dl .map_gps {
+        color: #777777;
+        font-family: Microsoft YaHei;
+        font-size: 14px; }
+        .map_channel .map_channel_service dl .map_gps i {
+          display: block;
+          width: 14px;
+          height: 17px;
+          background: url("../images/search_img.png") no-repeat left -82px;
+          float: left;
+          margin: 4px 8px 0px 0px; }
+      .map_channel .map_channel_service dl .map_dat {
+        color: #3498db;
+        font-family: Microsoft YaHei;
+        font-size: 14px; }
+        .map_channel .map_channel_service dl .map_dat i {
+          display: block;
+          width: 14px;
+          height: 15px;
+          background: url("../images/search_img.png") no-repeat left -108px;
+          float: left;
+          margin: 5px 8px 0px 0px; }
+        .map_channel .map_channel_service dl .map_dat b {
+          font-weight: 500;
+          color: #db2e2e;
+          float: right; }
+    .map_channel .map_channel_service .dea_map {
+      width: 250px;
+      height: 330px;
+      position: absolute;
+      top: 10px;
+      left: 0px; }
+      .map_channel .map_channel_service .dea_map iframe {
+        width: 100%;
+        height: 100%; }
+  .map_channel .map_channel_link {
+    height: 36px;
+    line-height: 36px; }
+    .map_channel .map_channel_link a {
+      font-size: 12px;
+      font-family: Microsoft YaHei;
+      color: #3498db; }
+      .map_channel .map_channel_link a span {
+        color: #db2e2e; }
+
+/* 经销商优惠 end */
+/* 车系资讯 */
+.info_channel {
+  width: 100%; }
+  .info_channel .info_h6 {
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    padding-top: 16px; }
+    .info_channel .info_h6 a {
+      font-size: 16px;
+      color: #3498db;
+      font-family: Microsoft YaHei; }
+      .info_channel .info_h6 a span {
+        color: #db2e2e; }
+      .info_channel .info_h6 a:hover span {
+        text-decoration: underline; }
+    .info_channel .info_h6 .info_h6_nav {
+      float: right;
+      height: 21px;
+      line-height: 21px;
+      color: #e5e5e5;
+      font-size: 14px; }
+      .info_channel .info_h6 .info_h6_nav a {
+        font-size: 14px;
+        color: #777777; }
+        .info_channel .info_h6 .info_h6_nav a:hover {
+          color: #3498db; }
+  .info_channel dl {
+    width: 508px;
+    padding-left: 132px;
+    height: 102px;
+    overflow: hidden;
+    margin-bottom: 8px; }
+    .info_channel dl dt {
+      width: 120px;
+      height: 90px;
+      margin-left: -132px;
+      margin-top: 12px;
+      float: left;
+      display: block; }
+    .info_channel dl .info_head {
+      height: 38px;
+      line-height: 38px; }
+      .info_channel dl .info_head a {
+        font-size: 14px;
+        color: #3498db;
+        font-family: Microsoft YaHei; }
+        .info_channel dl .info_head a span {
+          color: #db2e2e; }
+        .info_channel dl .info_head a:hover span {
+          text-decoration: underline; }
+    .info_channel dl .info_str {
+      line-height: 20px;
+      font-family: Microsoft YaHei;
+      color: #777777;
+      font-size: 14px; }
+    .info_channel dl .info_ber {
+      height: 36px;
+      line-height: 36px;
+      font-size: 12px;
+      color: #b5b5b5;
+      font-family: Microsoft YaHei; }
+      .info_channel dl .info_ber a {
+        color: #b5b5b5; }
+        .info_channel dl .info_ber a:hover {
+          color: #3498db; }
+  .info_channel .info_channel_link {
+    height: 35px;
+    line-height: 35px; }
+    .info_channel .info_channel_link a {
+      color: #3498db;
+      font-size: 12px;
+      font-family: Microsoft YaHei; }
+      .info_channel .info_channel_link a span {
+        color: #db2e2e; }
+      .info_channel .info_channel_link a:hover {
+        text-decoration: underline; }
+        .info_channel .info_channel_link a:hover span {
+          text-decoration: underline; }
+
+/* 车系资讯 end */
+/* 汽车论坛 */
+.bbs_channel {
+  width: 100%;
+  position: relative; }
+  .bbs_channel .bbs_h6 {
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    padding-top: 16px; }
+    .bbs_channel .bbs_h6 a {
+      font-size: 16px;
+      color: #3498db;
+      font-family: Microsoft YaHei; }
+      .bbs_channel .bbs_h6 a span {
+        color: #db2e2e; }
+      .bbs_channel .bbs_h6 a:hover span {
+        text-decoration: underline; }
+    .bbs_channel .bbs_h6 .bbs_h6_nav {
+      float: right;
+      height: 21px;
+      line-height: 21px;
+      color: #e5e5e5;
+      font-size: 14px; }
+      .bbs_channel .bbs_h6 .bbs_h6_nav a {
+        font-size: 14px;
+        color: #777777; }
+        .bbs_channel .bbs_h6 .bbs_h6_nav a:hover {
+          color: #3498db; }
+  .bbs_channel .bbs_ber {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: #b5b5b5; }
+  .bbs_channel .bbs_list {
+    widows: 100%; }
+    .bbs_channel .bbs_list li {
+      display: block;
+      width: 100%;
+      height: 28px;
+      line-height: 28px;
+      color: #e5e5e5;
+      font-size: 14px; }
+      .bbs_channel .bbs_list li a {
+        font-size: 14px;
+        color: #3498db;
+        font-family: Microsoft YaHei; }
+        .bbs_channel .bbs_list li a i {
+          color: #e26b6b; }
+        .bbs_channel .bbs_list li a:hover i {
+          text-decoration: underline; }
+      .bbs_channel .bbs_list li span {
+        display: inline-block;
+        width: 60px; }
+      .bbs_channel .bbs_list li b {
+        float: right;
+        font-family: Tahoma;
+        font-weight: 500;
+        font-size: 14px;
+        color: #b5b5b5; }
+  .bbs_channel .bbs_link {
+    height: 35px;
+    line-height: 35px; }
+    .bbs_channel .bbs_link a {
+      color: #3498db;
+      font-size: 12px;
+      font-family: Microsoft YaHei; }
+      .bbs_channel .bbs_link a span {
+        color: #db2e2e; }
+      .bbs_channel .bbs_link a:hover {
+        text-decoration: underline; }
+        .bbs_channel .bbs_link a:hover span {
+          text-decoration: underline; }
+  .bbs_channel .bbs_newcar {
+    width: 100%;
+    position: relative; }
+    .bbs_channel .bbs_newcar .bbs_newcarh6 {
+      height: 37px;
+      line-height: 37px; }
+      .bbs_channel .bbs_newcar .bbs_newcarh6 a {
+        font-size: 16px;
+        font-family: Microsoft YaHei;
+        color: #3498db; }
+        .bbs_channel .bbs_newcar .bbs_newcarh6 a span {
+          color: #db2e2e; }
+        .bbs_channel .bbs_newcar .bbs_newcarh6 a:hover span {
+          text-decoration: underline; }
+    .bbs_channel .bbs_newcar dl {
+      width: 508px;
+      height: 94px;
+      padding-left: 132px; }
+      .bbs_channel .bbs_newcar dl dt {
+        margin-left: -132px;
+        width: 120px;
+        height: 90px;
+        margin-top: 4px;
+        float: left; }
+      .bbs_channel .bbs_newcar dl dd {
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 19px;
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        color: #777777; }
+        .bbs_channel .bbs_newcar dl dd span {
+          color: #db2e2e; }
+        .bbs_channel .bbs_newcar dl dd p {
+          height: 20px;
+          line-height: 20px;
+          font-size: 12px;
+          color: #b5b5b5;
+          font-family: Microsoft YaHei; }
+  .bbs_channel .bbs_btlist {
+    width: 100%;
+    padding: 10px 0px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    height: 60px;
+    margin: 30px 0px; }
+    .bbs_channel .bbs_btlist li {
+      width: 148px;
+      padding-left: 12px;
+      height: 30px;
+      line-height: 30px;
+      position: relative;
+      overflow: hidden;
+      float: left; }
+      .bbs_channel .bbs_btlist li a {
+        font-family: Microsoft YaHei;
+        font-size: 12px;
+        color: #3498db; }
+      .bbs_channel .bbs_btlist li i {
+        display: block;
+        width: 3px;
+        height: 3px;
+        position: absolute;
+        left: 0px;
+        top: 13px;
+        background: #3498db; }
+
+/* 汽车论坛 end */
+/* 翻页 */
+.btom_page {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  text-align: center; }
+  .btom_page .page_left, .btom_page .page_right {
+    display: inline-block;
+    width: 74px;
+    height: 26px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 26px;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: #b7b7b7; }
+    .btom_page .page_left:hover, .btom_page .page_right:hover {
+      color: #ffffff;
+      background: #2b94db;
+      border: 1px solid #2b94db;
+      text-decoration: none; }
+  .btom_page .btom_page_active {
+    color: #ffffff;
+    background: #2b94db;
+    border: 1px solid #2b94db;
+    text-decoration: none; }
+  .btom_page span a {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    color: #000; }
+    .btom_page span a:hover {
+      text-decoration: none; }
+  .btom_page span .pageber_active {
+    border: 0;
+    padding: 1px; }
+
+/* 翻页 end */
+
+/*# sourceMappingURL=searchstyle.css.map */

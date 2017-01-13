@@ -1,0 +1,177 @@
+
+<!-- 左侧导航列表 -->
+<div class="list_lf">
+    <dl ms-for="cat in catData.Catigrade">
+        <dt>
+            <i></i>
+            <a href="javascript:void(0)">分类</a>
+            </dt>
+        <dd><a href="javascript:void(0)">不限</a></dd>
+        <dd ms-for="elem in cat.catcontent">
+            <a ms-attr="{href:elem.catUrl}">{{elem.catname}}</a>
+            </dd>
+        <dd><a href="javascript:void(0)"></a></dd>
+    </dl>
+</div>
+<!-- 左侧导航列表 end -->
+<!-- 主体页面 -->
+<div class="main">
+    <!-- 车系频道 -->
+    <div class="car_channel">
+        <div>
+            <div class="channel_h6">
+                <a ms-attr="{href:@firstbarData.titlenameUrl}" target="_blank" title="" alt=""><span>{{@firstbarData.titlename}}</span>-车系频道</a>
+            </div>
+            <div class="channel_content">
+                <dl>
+                    <dt>
+                        <img ms-attr="{src:@firstbarData.image}" alt="">
+                        <a ms-attr="{href:@firstbarData.imageUrl}" target="_blank" title="">图片实拍<span>（{{@firstbarData.tupianshipaishuliang}}张）</span></a>
+                    </dt>
+                    <dd>
+                        <p class="h31">
+                            <span class="w88">本地参考价：</span>
+                            <span class="w167"><a ms-attr="{href:@firstbarData.tupianshipaishuliangUrl}" target="_blank" title="">{{@firstbarData.accordPrice}}</a> 万</span>
+                            <span class="w46"></span>
+                            <span class="w140"></span>
+                        </p>
+                        <p class="">
+                            <span class="w88">厂商指导价：</span>
+                            <span class="w167">{{@firstbarData.changshangaccordPrice}} 万</span>
+                            <span class="w46">级别：</span>
+                            <span class="w140">{{@firstbarData.jibie}}</span>
+                        </p>
+                        <p class="">
+                            <span class="w88">排&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：</span>
+                            <span class="w167">{{@firstbarData.pailiang}}</span>
+                            <span class="w46">车身：</span>
+                            <span class="w140">{{@firstbarData.cheshen}}</span>
+                        </p>
+                        <p class="">
+                            <span class="w88">变&nbsp;&nbsp;&nbsp;速&nbsp;&nbsp;&nbsp;&nbsp;箱：</span>
+                            <span class="w167">{{@firstbarData.biansuxiang}}</span>
+                            <span class="w46">保修：</span>
+                            <span class="w140">{{@firstbarData.baoxiu}}</span>
+                        </p>
+                        <div class="channel_btn">
+                            <a  ms-attr="{href:@firstbarData.xundiejiaUrl}" target="_blank" title="" alt="">询底价</a>
+                            <a  ms-attr="{href:@firstbarData.zhihuan}" target="_blank" title="" alt="">置换</a>
+                            <a  ms-attr="{href:@firstbarData.shijia}"  target="_blank" title="" alt="">试驾</a>
+                        </div>
+                        <div class="channel_link">
+                            <a  ms-attr="{href:@firstbarData.canshupeizhi}"  target="_blank" title="" alt="">参数配置</a>
+                            <a  ms-attr="{href:@firstbarData.youhao}"  target="_blank" title="" alt="">油耗</a>
+                            <a ms-attr="{href:@firstbarData.baojia}" target="_blank" title="" alt="">报价</a>
+                            <a ms-attr="{href:@firstbarData.ershouche}" target="_blank" title="" alt="">二手车</a>
+                            <a ms-attr="{href:@firstbarData.luntan}" target="_blank" title="" alt="">论坛</a>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="channel_tab">
+            <div class="channel_tab_nav">
+                <a href="javascript:void(0);" ms-for="($index,titleelem) in @channel_tab" :class="[ ($index==0)&& 'underline']" ms-click="@tabToggle(titleelem.chexingmingcheng,$event)">{{titleelem.tabsrementitlename}}</a>
+            </div>
+            <div class="channel_tab_text">
+                <table width="" border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                    <tr>
+                        <td width="240" class="p_19">车型名称</td>
+                        <td width="72">变速箱</td>
+                        <td width="67">排量</td>
+                        <td width="85">指导价</td>
+                        <td width="75">参考价</td>
+                        <td width="80"></td>
+                    </tr>
+                    </thead>
+                </table>
+                <table width="" border="0" cellspacing="0" cellpadding="0" style="margin-top: 6px;">
+                    <tbody>
+                    <tr ms-for='elem in tabspropsdata'>
+                        <td width="240" class="p_19"><a href="###" target="_blank"title="" class="channel_tab_link1">{{elem.name}}</a></td>
+                        <td width="72">{{elem.biansuxiang}}</td>
+                        <td width="67">{{elem.pailiang}}</td>
+                        <td width="85">{{elem.zhidaojia}}</td>
+                        <td width="75">{{elem.cankaojia}}</td>
+                        <td width="80"><a href="###" target="_blank" title="" class="car_channe2">询底价</a></td>
+                    </tr>
+                    <tr>
+                        <td width="240" class="p_19"><a href="###" target="_blank"title="" class="channel_tab_link1">查看全部在售车型 >></a></td>
+                        <td width="72"></td>
+                        <td width="67"></td>
+                        <td width="85"></td>
+                        <td width="75"></td>
+                        <td width="80"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- 车系频道 end -->
+    <!-- 车系图片 -->
+    <div class="img_channel">
+        <h6>
+            <a ms-attr="{href:@chexiimageData.chexinameUrl}" target="_blank" title=""><span>{{@chexiimageData.chexiname}}</span>-车系图片-实拍图-车展图</a>
+        </h6>
+        <div class="img_channel_li">
+            <ul>
+                <li ms-for="elem in @chexiimageData.tupianUrl">
+                    <a ms-attr="{href:@elem.url}" target="_blank" title=""><img ms-attr="{src:@elem.imageUrl}" width="120" height="90" title="" alt=""></a>
+                    <i></i>
+                </li>
+            </ul>
+        </div>
+        <div class="img_channel_link">
+            <a ms-attr="{href:@chexiimageData.chakangenguoUrl}" target="_blank" title="" alt="">查看更多<span>{{@chexiimageData.chexishipinname}}</span>相关图片 >></a>
+        </div>
+    </div>
+    <!-- 车系图片 end-->
+    <!-- 车系视频 -->
+    <xmp ms-widget="{is:'Chexivedio-view',chexivideoData:@chexivideoDataparent,id:'ddd'}" cached="true"></xmp>
+    <!-- 车系视频 end -->
+    <!-- 品牌车系 -->
+    <div class="brand_channel">
+        <h6>
+            <a ms-attr="{href:@brandDataparent.gengduochexishipin2Url}" target="_blank" title=""><span>{{@brandDataparent.chexishipin2titlename}}</span>-车系视频-原创视频-评测视频</a>
+        </h6>
+        <div class="brand_channel_list">
+            <div class="brand_car brand_car_1" ms-for="elem in @brandDataparent.chexizhonglei">
+                <a ms-attr="{href:@elem.chexinameUrl}" target="_blank" title="" alt="" >
+                    <img ms-attr="{src:@elem.chexinameImage}"  alt=""   width="120" height="90" >
+                    <span class="brand_link1">{{elem.chexiname}}</span>
+                    <span class="brand_link2">{{elem.chexinameprice}}万</span>
+                </a>
+            </div>
+        </div>
+        <div class="brand_channel_linke">
+            <a href="###" target="_blank" title="" alt="">查看更多<span>大众</span>品牌车系 >></a>
+        </div>
+        <wbr :widget="{is:'brandlist-view',brandlistData:@brandlistDataparent}">
+    </div>
+    <!-- 品牌车系 end -->
+    <!-- 经销商优惠 -->
+    <div class="map_channel">
+        <div class="map_h6">
+            <a ms-attr="{href:@mapchannelData.titleUrl}" target="_blank" title="" alt=""><span>{{@mapchannelData.title}}</span>-经销商优惠-行情促销</a>
+        </div>
+        <div class="map_channel_service">
+            <dl  ms-for="($index elem) in @mapchannelData.jignxiaoshang">
+                <dt><a ms-attr="{href:elem.jingxiaoshangnamUrl}" target="_blank" title="">{{$index+1}}.{{elem.jingxiaoshangnam}}</a><i>4S店</i></dt>
+                <dd class="map_phone"><i></i>{{elem.iphone}}<span>认证</span></dd>
+                <dd class="map_gps"><i></i>{{elem.address}}</dd>
+                <dd class="map_dat"><i></i>{{elem.cuxiao}}<b>{{elem.cuxiaoxiangguan}}</b></dd>
+            </dl>
+            <div class="dea_map">
+                <!--<iframe src="###" frameborder="0"></iframe>-->
+            </div>
+        </div>
+        <div class="map_channel_link">
+            <a ms-attr="{href:@mapchannelData.gengduotitleUrl}" target="_blank" title="">查看更多<span>{{@mapchannelData.title}}</span>经销商行情 >></a>
+        </div>
+    </div>
+    <wbr ms-widget="{is:'brandlist-view',brandlistData:@brandlistDataparent,id:'brandlist'}" cached="true" >
+    <!-- 经销商优惠 -->
+</div>
+<!-- 主体页面 end -->

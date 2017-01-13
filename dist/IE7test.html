@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="./styles/css/css.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="http://icon.xcar.com.cn/min/?f=2013/nav/css/channel_nav.css&r=20140220"/>
+    <link type="text/css" rel="stylesheet" href="http://icon.xcar.com.cn/min/?f=2013/nav/css/channel_nav.css,2013/nav/css/channel_dnav.css&r=20140220"/>
+    <link rel="stylesheet" href="./styles/css/searchstyle.css">
+    <script src="./js/bundle1.js"></script>
+    <!--<script src="http://localhost:8080/webpack-dev-server.js"></script>-->
+    <style>
+        /*CSS 属性选择器*/
+        /*下面的例子为带有 ms-controller 属性的所有元素设置样式：*/
+        .ms-controller , [ms-controller]{
+            visibility: hidden;
+        }
+        .underline{
+            border-bottom: 2px solid #3498db;
+            text-decoration: none;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body ms-controller="test">
+<div class="header_bg" style="z-index:999;" id="totop">
+    <div class="header">
+        <div class="mbbs menubox fr" rel="xheaderbbsnavBox">
+            <div class="menutb">爱卡论坛导航</div>
+            <div class="mbbs_show" id="xheaderbbsNav">
+                <iframe scrolling="no" frameborder="0" style="width: 822px;" class="nav_daohang" id="daohang" name="daohang" marginheight="0" marginwidth="0" border="0" target="_blank"></iframe>
+            </div>
+        </div>
+        <div class="mcs menubox fr" rel="xheaderchishi">
+            <div class="menutb" id="xHeaderIplocation"><a href="http://bj.xcar.com.cn/" target="_blank">北京车市</a></div>
+            <div class="mcs_show">
+                <iframe scrolling="no" frameborder="0" height="180px" style="width: 702px;" id="csdaohang" name="csdaohang"  marginheight="0" marginwidth="0" border="0" target="_blank" src="http://info.xcar.com.cn/ches_nav.php?navul=http://info.xcar.com.cn" ></iframe>
+            </div>
+        </div>
+
+        <div class="mmp menubox fr">
+            <div class="menutb">
+                <span class="iphone">手机爱卡</span>
+            </div>
+            <div class="mmp_show">
+                <a href="http://m.xcar.com.cn/wap.htm" target="_blank" class="wap">触屏版</a>
+                <a href="http://m.xcar.com.cn/xcar.htm" target="_blank" class="xcar">爱卡汽车</a>
+                <a href="http://m.xcar.com.cn/carfinder.htm" target="_blank" class="carfinder">爱买车</a>
+                <span class="weixin">爱卡微信<i></i></span>
+            </div>
+        </div>
+        <div id="xlogininfo" class="muser menubox" style=""><div class="menutb">	<a href="http://my.xcar.com.cn" class="name" target="_blank">我的爱卡</a></div></div>
+        <div id="xheaderMessage" class="mess fr" style="width: 88px; display:block;"></div>
+        <div id="xloginBtn" style=""><div class="login" >		<div class="login_btn" id="xlogin">登录</div>	</div>	<a href="http://reg.xcar.com.cn/register.php" target="_blank" class="register">注册</a></div>
+    </div>
+</div>
+<!-- login end -->
+<!--header end-->
+<!-- 顶部搜索 -->
+<div class="firm">
+    <div class="firmHead">
+        <a class="f_logo" href="http://search.xcar.com.cn/">
+            <img src="http://icon.xcar.com.cn/lxh/modelSearch/images/headLogo.png" width="102px" height="33px">
+        </a>
+        <a href="http://search.xcar.com.cn/"><b class="searchName">搜索</b></a>
+        <div class="firm_form">
+            <div class="formTop">
+                <a class="select"  id="aaa" href='#!/aaa'>综合</a>
+                <a href='#!/bbb'>资讯</a>
+                <!--					<a href="/search.php?c=3&k=%E9%9B%AA%E9%93%81%E9%BE%99C5" >车型</a>-->
+                <a href='#!/ccc'>社区</a>
+            </div>
+            <form method="get" name="searchForm" id="searchForm">
+                <input name="k" id="k" value="雪铁龙C5" autocomplete="off" maxlength="50" type="text" class="firm_inp"><input type="submit" value="搜索" class="firm_but">
+                <input name="c" value="1" type="hidden">
+                <input name="s" value="" type="hidden">
+                <input name="f" value="" type="hidden">
+                <input name="r" value="" type="hidden">
+                <input name="p" value="10" type="hidden">
+                <input name="zoneclick" id="zoneclick" value="" type="hidden">
+            </form>
+        </div>
+        <span class="firmResult">找到约<span id="search_total">5268</span>条相关结果,用时<span id="search_cost">0.063</span>秒.</span>
+    </div>
+</div>
+<!-- 顶部搜索 end -->
+<!--<p class="tabs"><a href='#!/aaa'>aaa</a><a href='#!/bbb'>bbb</a><a href='#!/ccc'>ccc</a></p>-->
+<div ms-html="@main" class="container"></div>
+</body>
+</html>

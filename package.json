@@ -1,0 +1,36 @@
+{
+  "name": "mmRouter",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "webpack --progress --hide-modules --watch",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RubyLouvre/mmRouter.git"
+  },
+  "version": "0.9.5",
+  "description": "avalon官网的路由器系列",
+  "main": "dist/mmRouter.js",
+  "keywords": [
+    "javascript",
+    "router",
+    "avalon"
+  ],
+  "dependencies": {
+    "es3ify-loader": "^0.2.0",
+    "webpack": "^1.12.2",
+    "webpack-utf8-bom": "^1.0.3"
+  },
+  "devDependencies": {
+    "avalon2": "^2.1.0",
+    "html-minify-loader": "~1.1.0",
+    "raw-loader": "~0.5.1",
+    "webpack": "^1.12.2",
+    "webpack-browser-plugin": "^1.0.20"
+  },
+  "bugs": {
+    "url": "https://github.com/RubyLouvre/mmRouter/issues"
+  }
+}

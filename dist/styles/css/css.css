@@ -1,0 +1,153 @@
+/*
+用途项目：Xcar页面规范
+前端制作：石松
+生成日期：2015/12/30
+*/
+@charset "gb2312";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input,p{margin:0;padding:0;border:0}
+body{
+    color:#444;
+    font-size:12px;
+}
+i,em{ font-style:normal}
+ul,ol{list-style-type:none}
+select,input,select{vertical-align:middle}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+.clear{clear:both;height:0;font:0/0 Tahoma;visibility:hidden}
+a{
+    text-decoration:none;
+    color:#0000cc;
+}
+a:hover{
+    text-decoration:underline;
+    color:#e84b3a;
+}
+a:focus {
+    outline:none;
+    -moz-outline:none;
+}
+
+/* 导航样式 */
+.firm{
+    background-color:#f6f6f6;
+    border-top:solid 1px #eee;
+    border-bottom:solid 1px #eee;
+    height:108px;
+    overflow:hidden;
+    line-height:108px;
+}
+.firmHead,.firmCon{
+    width:960px;
+    margin:auto;
+}
+
+.f_logo{
+    float:left;
+    margin-top:10px;
+    *margin-top:0px;
+    _margin-top:32px;
+}
+.searchName{
+    font-size:20px;
+    font-family:'Microsoft YaHei';
+    color:#2b5084;
+    float:left;
+    margin:0 16px 0 10px;
+}
+.firm_form{
+    float:left;
+    position:relative;
+}
+.formTop{
+    position:absolute;
+    top: 8px;
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+}
+.formTop a{
+    margin-right:22px;
+    color: #444
+}
+.formTop a:hover{
+    color:#e64e41;
+}
+.formTop .select{
+    color:#ff9400;
+    font-weight:bold;
+}
+
+.firm_inp{
+    width:372px;
+    height:34px;
+    line-height:34px;
+    border:solid 1px #ddd;
+    font-size:16px;
+    color:#444;
+    padding-left:8px;
+    _margin-top:34px;
+}
+
+.firm_but{
+    width:90px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    background-color:#3498db;
+    font-size:16px;
+    font-family:'Microsoft YaHei';
+    _margin-top:34px;
+}
+
+.firm_butHover{
+    background-color:#2a80b9;
+}
+.firmResult{
+    color:#999;
+    float:right;
+    margin-top:12px;
+}
+.mt30{
+    margin-top:30px;
+}
+.ConLeft{
+    width:640px;
+    float:left;
+    overflow:hidden;
+}
+.l_title{
+    height:30px;
+    line-height:30px;
+    border:solid 1px #eee;
+    background-color:#f8f8f8;
+    padding-left:15px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* 翻页 */
+.unify_page{font-size:14px;line-height:32px;text-align:center;font-family:"SimSun"}
+.unify_page .page{display:inline-block;width:34px;height:32px;border:1px solid #ebebed;text-align:center;margin:0 3px}
+.unify_page a{color:#444;text-decoration:none}
+.unify_page a:hover{text-decoration:none}
+.unify_page span{display:inline-block;width:34px;height:32px;border:1px solid #fff;text-align:center;margin:0 3px}
+.unify_page .active{font-weight:bold;}
+.unify_page .page_about{display:inline-block;height:32px;padding:0 8px;border:1px solid #ebebed;text-align:center;margin:0 3px}
+.unify_page .page:hover,
+.unify_page .page_about:hover{border:1px solid #1c92dc;background-color:#3099db;color:#fff}
+.unify_page .page_up,
+.unify_page .page_down,
+.unify_page .page_up_no,
+.unify_page .page_down_no{display:inline-block;height:32px;text-align:center;background-repeat:no-repeat;margin:0 3px}
+.unify_page .page_up{padding:0 18px;border:1px solid #e5e5e5;background-color:#fff;color:#444444}
+.unify_page .page_down{padding:0 18px;border:1px solid #3099db;background-color:#41a1de;color:#fff}
+.unify_page .page_up:hover{border:1px solid #3099db;background-color:#41a1de;color:#fff}
+.unify_page .page_down:hover{border:1px solid #217cb8;background-color:#2a80b9;color:#fff}
+.unify_page .page_up_no{padding:0 18px;border:1px solid #e5e5e5;background-color:#fff;color:#b5b5b5}
+.unify_page .page_down_no{padding:0 18px;border:1px solid #e5e5e5;background-color:#fff;color:#b5b5b5}

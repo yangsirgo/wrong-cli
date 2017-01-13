@@ -1,0 +1,295 @@
+{
+    "CAT":{
+      "Catigrade":[{
+        "uid": "1",
+        "catcontent":[{
+          "catname": "导购信息",
+          "catUrl": "www.baidu.com"
+        },{
+          "catname": "用车咨询",
+          "catUrl": "www.tengxun.com"
+        },{
+          "catname": "试驾评测",
+          "catUrl": "www.jingdong.com"
+        }]
+      },{
+        "uid": "2",
+        "catcontent":[{
+          "catname": "导购信息2",
+          "catUrl": "www.baidu2.com"
+        },{
+          "catname": "用车咨询2",
+          "catUrl": "www.tengxun2.com"
+        },{
+          "catname": "试驾评测2",
+          "catUrl": "www.jingdong2.com"
+        }]
+      },{
+        "uid": "3",
+        "catcontent":[{
+          "catname": "导购信息3",
+          "catUrl": "www.baidu3.com"
+        },{
+          "catname": "用车咨询3",
+          "catUrl": "www.tengxun3.com"
+        },{
+          "catname": "试驾评测3",
+          "catUrl": "www.jingdong3.com"
+        }]
+      }]
+    },
+    "CONTENT":  {
+      "titledata": {
+        "contenttitle":{
+          "titlename": "途观",
+          "titlenameUrl": "www.titlenameUrl.com",
+          "imageUrl": "www.imageURLtitle.com",
+          "image":"./styles/images/car_03.jpg",
+          "tupianshipaishuliang":"45454",
+          "tupianshipaishuliangUrl":"www.tupianshipaishuliangUrl.com",
+          "accordPrice": "27.28-46.46",
+          "changshangaccordPrice": "28.53-50.72",
+          "jibie": "紧凑型",
+          "pailiang":"2.0L  2.0T",
+          "cheshen":"两厢三厢",
+          "biansuxiang":" 手自一体",
+          "baoxiu":"三年或10万公里",
+          "xundiejiaUrl":"www.xundijia.com",
+          "zhihuan":"www.zhihuan.com",
+          "shijia":"www.shijia.com",
+          "canshupeizhi":"www.canshupeizhi.com",
+          "youhao":"www.youhao.com",
+          "baojia":"www.baojia.com",
+          "ershouche":"www.ershouche.com",
+          "luntan":"www.luntan.com"
+        },
+        "tabs":[{
+          "tabsrementitlename":"热门",
+          "chexingmingcheng":[{
+            "name":"2013款途观 1.4TSI 手动两驱蓝驱版",
+            "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+            "biansuxiang":"2.0L",
+            "pailiang":"5档MT",
+            "zhidaojia":"19.98",
+            "cankaojia":"17.38",
+            "xundijiaURL":"www.xundijiaURL.com",
+            "chakanquanbuzaishouchexing":"www.chakanquanbuzag.com"
+          },{
+              "name":"2013款途观 1.4TSI 手动两驱蓝驱版",
+              "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+              "biansuxiang":"2.0L",
+              "pailiang":"5档MT",
+              "zhidaojia":"19.98",
+              "cankaojia":"17.38",
+              "xundijiaURL":"www.xundijiaURL.com"
+            },{
+                "name":"2013款途观 1.4TSI 手动两驱蓝驱版",
+                "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                "biansuxiang":"2.0L",
+                "pailiang":"5档MT",
+                "zhidaojia":"19.98",
+                "cankaojia":"17.38",
+                "xundijiaURL":"www.xundijiaURL.com"
+              }]
+            },{
+              "tabsrementitlename":"2.0L",
+              "chexingmingcheng":[{
+                "name":"2023款途观 1.4TSI 手动两驱蓝驱版",
+                "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                "biansuxiang":"2.0L",
+                "pailiang":"5档MT",
+                "zhidaojia":"19.98",
+                "cankaojia":"asdfdas",
+                "xundijiaURL":"www.xundijiaURL.com",
+                "chakanquanbuzaishouchexing":"www.chakanquanbuzag.com"
+              },{
+                  "name":"2023款途观 1.4TSI 手动两驱蓝驱版",
+                  "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                  "biansuxiang":"2.0L",
+                  "pailiang":"5档MT",
+                  "zhidaojia":"sadfads",
+                  "cankaojia":"17.38",
+                  "xundijiaURL":"www.xundijiaURL.com"
+                },{
+                    "name":"2023款途观 1.4TSI 手动两驱蓝驱版",
+                    "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                    "biansuxiang":"2.0L",
+                    "pailiang":"sadfasd",
+                    "zhidaojia":"19.98",
+                    "cankaojia":"17.38",
+                    "xundijiaURL":"www.xundijiaURL.com"
+                  }]
+                },{
+                  "tabsrementitlename":"2.0T",
+                  "chexingmingcheng":[{
+                    "name":"2033款途观 1.4TSI 手动两驱蓝驱版",
+                    "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                    "biansuxiang":"2.0L",
+                    "pailiang":"asdfas",
+                    "zhidaojia":"19.98",
+                    "cankaojia":"17.38",
+                    "xundijiaURL":"www.xundijiaURL.com",
+                    "chakanquanbuzaishouchexing":"www.chakanquanbuzag.com"
+                  },{
+                      "name":"2033款途观 1.4TSI 手动两驱蓝驱版",
+                      "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                      "biansuxiang":"2.0L",
+                      "pailiang":"5档MT",
+                      "zhidaojia":"19.98",
+                      "cankaojia":"17.38",
+                      "xundijiaURL":"www.xundijiaURL.com"
+                    },{
+                        "name":"2033款途观 1.4TSI 手动两驱蓝驱版",
+                        "nameUrl":"www.2013款途观 1.4TSI 手动两驱蓝驱版.com",
+                        "biansuxiang":"2.0L",
+                        "pailiang":"5档MT",
+                        "zhidaojia":"19.98",
+                        "cankaojia":"17.38",
+                        "xundijiaURL":"www.xundijiaURL.com"
+                      }]
+                    }]
+                  },
+      "chexitupian":{
+                      "chexiname":"途观",
+                      "chexinameUrl":"www.chexinameUrl.com",
+                      "chakangenguoUrl":"www.chakangenguoUrl.com",
+                      "tupianUrl":[{
+                        "url":"www.tupianUrl1.com",
+                        "imageUrl":"./styles/images/image01.png"
+                      },{
+                        "url":"www.tupianUrl2.com",
+                        "imageUrl":"./styles/images/image02.png"
+                      },{
+                        "url":"www.tupianUrl3.com",
+                        "imageUrl":"./styles/images/image03.png"
+                      },{
+                        "url":"www.tupianUrl4.com",
+                        "imageUrl":"./styles/images/image04.png"
+                      },{
+                        "url":"www.tupianUrl5.com",
+                        "imageUrl":"./styles/images/image05.png"
+                      }]
+                    },
+      "chexishipin":{
+                      "chexishipinname":"途观",
+                      "chexishipinnameUrl":"www.chexishipinnameUrl.com",
+                      "gengduoshipinUrl":"www.chakangenguoUrl.com",
+                      "shipinUrl":[{
+                        "url":"www.tupianUrl.com",
+                        "imageUrl":"./styles/images/image01.png"
+                      },{
+                        "url":"www.tupianUrl.com",
+                        "imageUrl":"./styles/images/image02.png"
+                      },{
+                        "url":"www.tupianUrl.com",
+                        "imageUrl":"./styles/images/image03.png"
+                      },{
+                        "url":"www.tupianUrl.com",
+                        "imageUrl":"./styles/images/image04.png"
+                      },{
+                        "url":"www.tupianUrl.com",
+                        "imageUrl":"./styles/images/image05.png"
+                      }]
+                    },
+      "chexishipin2":{
+        "chexishipin2titlename":"大众",
+        "gengduochexishipin2Url":"www.gengduochexishipin2Url.com",
+        "chexizhonglei":[{
+          "chexiname":"速腾11",
+          "chexinameImage":"./styles/images/image01.png",
+          "chexinameprice":"1111",
+          "chexinameUrl":"www.baidu1.com"
+        },{
+          "chexiname":"速腾22",
+          "chexinameImage":"./styles/images/image02.png",
+          "chexinameprice":"22222",
+          "chexinameUrl":"www.baidu2.com"
+        },{
+          "chexiname":"速腾33",
+          "chexinameImage":"./styles/images/image03.png",
+          "chexinameprice":"33333",
+          "chexinameUrl":"www.baidu3.com"
+        },{
+          "chexiname":"速腾4",
+          "chexinameImage":"./styles/images/image04.png",
+          "chexinameprice":"44444",
+          "chexinameUrl":"www.baidu4.com"
+        },{
+          "chexiname":"速腾5",
+          "chexinameImage":"./styles/images/image05.png",
+          "chexinameprice":"555555",
+          "chexinameUrl":"www.baidu5.com"
+        },{
+          "chexiname":"速腾6",
+          "chexinameImage":"./styles/images/image06.png",
+          "chexinameprice":"66666",
+          "chexinameUrl":"www.baidu6.com"
+        },{
+          "chexiname":"速腾7",
+          "chexinameImage":"./styles/images/image07.png",
+          "chexinameprice":"77777",
+          "chexinameUrl":"www.baidu7.com"
+        },{
+          "chexiname":"速腾8",
+          "chexinameImage":"./styles/images/image08.png",
+          "chexinameprice":"888888",
+          "chexinameUrl":"www.baidu8.com"
+        },{
+          "chexiname":"速腾9",
+          "chexinameImage":"./styles/images/image09.png",
+          "chexinameprice":"999999",
+          "chexinameUrl":"www.baidu9.com"
+        },{
+          "chexiname":"速腾10",
+          "chexinameImage":"./styles/images/image010.png",
+          "chexinameprice":"101010",
+          "chexinameUrl":"www.baidu10.com"
+        }],
+        "chexiguanggaobrand":[{
+          "title":"速腾",
+          "url":"www.asdhfalsdh.com",
+          "content":"近日，爱卡汽车从东风日产北京海润嘉专营店获悉，日产新途观目前购车可享前有现车销...",
+          "xinchezixun":"新车资讯",
+          "data":"2017-01-23",
+          "pinglunshuliang":100,
+          "zanshuliang":10
+        },{
+          "title":"速腾",
+          "url":"www.asdhfalsdh.com",
+          "content":"sadfasdfasdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasd阿斯顿发生的发生的发生多发是方法是打发发送到发送到..",
+          "xinchezixun":"新车资讯",
+          "data":"2018-03-23",
+          "pinglunshuliang":10000,
+          "zanshuliang":9
+        }]
+      },
+      "jingxiaoshangyouhui":{
+        "title":"途观",
+        "titleUrl":"www.tuguanjingxiaoshangyouhui.com",
+        "gengduotitleUrl":"www.gengduotitleUrl.com",
+        "jignxiaoshang":[{"jingxiaoshangnam":"北京奥之旅汽车销售服务有限公司1",
+          "jingxiaoshangnamUrl":"www.jingxiaoshangnamUrl.com",
+          "id":1,
+          "iphone":"8888888",
+          "address":"北京市房山区京港澳高速阎村出口澎湃汽车城内1",
+          "cuxiao":"德奥达奥迪A3力邀好友high翻奥迪音乐季",
+          "cuxiaoxiangguan":"剩余1天"
+          },{"jingxiaoshangnam":"北京奥之旅汽车销售服务有限公司2",
+          "jingxiaoshangnamUrl":"www.jingxiaoshangnamUrl.com",
+          "id":1,
+          "iphone":"8888888",
+          "address":"北京市房山区京港澳高速阎村出口澎湃汽车城内2",
+          "cuxiao":"德奥达奥迪A3力邀好友high翻奥迪音乐季",
+          "cuxiaoxiangguan":"剩余2天"
+        },{"jingxiaoshangnam":"北京奥之旅汽车销售服务有限公司3",
+          "jingxiaoshangnamUrl":"www.jingxiaoshangnamUrl.com",
+          "id":1,
+          "iphone":"8888888",
+          "address":"北京市房山区京港澳高速阎村出口澎湃汽车城内3",
+          "cuxiao":"德奥达奥迪A3力邀好友high翻奥迪音乐季",
+          "cuxiaoxiangguan":"剩余3天"
+        }
+        ]
+      }
+    }
+ }
